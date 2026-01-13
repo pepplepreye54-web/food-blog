@@ -1,0 +1,196 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delish Bites Restaurant</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }body {
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5') center/cover no-repeat;
+  height: 100vh;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+nav h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero a {
+  background: #e67e22;
+  color: #fff;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+section {
+  padding: 60px 40px;
+}
+
+.about {
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.menu {
+  background: #f4f4f4;
+}
+
+.menu h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.menu-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.menu-item h3 {
+  margin-bottom: 10px;
+}
+
+.menu-item span {
+  color: #e67e22;
+  font-weight: bold;
+}
+
+.contact {
+  text-align: center;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .hero h2 {
+    font-size: 32px;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <!-- Header / Hero -->
+  <header>
+    <nav>
+      <h1>Delish Bites</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav><div class="hero">
+  <h2>Delicious Food, Cozy Place</h2>
+  <p>Fresh meals made with love</p>
+  <a href="#menu">View Menu</a>
+</div>
+
+  </header>  <!-- About Section -->  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      Delish Bites is a modern restaurant offering tasty dishes made from fresh ingredients.
+      We serve local and international meals in a warm and welcoming environment.
+    </p>
+  </section>  <!-- Menu Section -->  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <h3>Jollof Rice & Chicken</h3>
+        <p>Smoky Nigerian jollof rice served with grilled chicken.</p>
+        <span>₦3,500</span>
+      </div><div class="menu-item">
+    <h3>Fried Rice & Beef</h3>
+    <p>Vegetable fried rice with tender beef.</p>
+    <span>₦3,000</span>
+  </div>
+
+  <div class="menu-item">
+    <h3>Burger & Fries</h3>
+    <p>Juicy beef burger served with crispy fries.</p>
+    <span>₦4,000</span>
+  </div>
+
+  <div class="menu-item">
+    <h3>Spaghetti Bolognese</h3>
+    <p>Classic spaghetti with rich meat sauce.</p>
+    <span>₦3,200</span>
+  </div>
+</div>
+
+  </section>  <!-- Contact Section -->  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📍 12 Food Street, Lagos</p>
+    <p>📞 +234 800 123 4567</p>
+    <p>⏰ Mon - Sun: 9am - 10pm</p>
+  </section>  <footer>
+    <p>&copy; 2026 Delish Bites Restaurant. All rights reserved.</p>
+  </footer>
+</body>
+</html>

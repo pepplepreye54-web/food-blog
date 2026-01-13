@@ -1,0 +1,16 @@
+.hero {
+  background: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5') center/cover no-repeat;
+  padding: 120px 0;
+}
+
+.menu-item {
+  margin-bottom: 20px;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
